@@ -2,9 +2,10 @@ import { defineConfig } from '@solidjs/start/config'
 import type { Plugin } from 'vite'
 import civetPlugin from 'vite-plugin-civet'
 
+const extensions = ['tsx', 'ts', 'js', 'civet']
 
 export default defineConfig({
-  devOverlay: true,
+  extensions,
   vite: () => ({
     plugins: [
       civetPlugin({

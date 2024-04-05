@@ -12,14 +12,11 @@
     "@solidjs/router": "0.13.1",
     "@solidjs/start": "1.0.0-rc.0",
     "solid-js": "1.8.16",
-    "vite-plugin-civet": "0.2.8"
+    "vite-plugin-civet": "0.2.8",
+    "vinxi": "0.3.11"
   },
   "devDependencies": {
-    "jsdom": "24.0.0",
-    "typescript": "5.4.4",
-    "vinxi": "0.3.10",
-    "vite": "4.0.5",
-    "vite-plugin-solid": "2.10.2"
+    "typescript": "5.4.4"
   },
   "overrides": {
     "solid-refresh": "0.6.3"

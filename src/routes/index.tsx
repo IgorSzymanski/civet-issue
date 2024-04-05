@@ -1,5 +1,5 @@
 import { RouteSectionProps } from '@solidjs/router'
-import Test from '~/components/Test.civet'
+import Test from '~/components/Test'
 
 export default function HomeLayout(properties: RouteSectionProps) {
   return (

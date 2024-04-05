@@ -1,4 +1,4 @@
-{ ParentProps } from 'solid-js'
+{ ParentProps } from solid-js
 
 export default Test := (props: ParentProps) =>
   <>

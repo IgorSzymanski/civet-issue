@@ -3,7 +3,7 @@ import { createHandler, StartServer } from '@solidjs/start/server'
 export default createHandler(() => {
   return (
     <StartServer
-      document={properties => (
+      document={(properties) => (
         <html lang="en">
           <head>
             <title>SolidStart - with Civet</title>
