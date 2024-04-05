@@ -1,9 +1,9 @@
 {
   "name": "reproduction",
   "scripts": {
-    "dev": "bunx --bun vinxi dev --port 8080",
-    "build": "bunx --bun vinxi build",
-    "start": "bunx --bun vinxi start",
+    "dev": "vinxi dev --port 8080",
+    "build": "vinxi build",
+    "start": "vinxi start",
     "typecheck": "tsc --noEmit"
   },
   "type": "module",
