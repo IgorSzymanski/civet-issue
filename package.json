@@ -1,0 +1,30 @@
+{
+  "name": "reproduction",
+  "scripts": {
+    "dev": "bunx --bun vinxi dev --port 8080",
+    "build": "bunx --bun vinxi build",
+    "start": "bunx --bun vinxi start",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "dependencies": {
+    "@solidjs/meta": "0.29.3",
+    "@solidjs/router": "0.13.1",
+    "@solidjs/start": "1.0.0-rc.0",
+    "solid-js": "1.8.16",
+    "vite-plugin-civet": "0.2.8"
+  },
+  "devDependencies": {
+    "jsdom": "24.0.0",
+    "typescript": "5.4.4",
+    "vinxi": "0.3.10",
+    "vite": "4.0.5",
+    "vite-plugin-solid": "2.10.2"
+  },
+  "overrides": {
+    "solid-refresh": "0.6.3"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
