@@ -1,0 +1,6 @@
+/* @refresh reload */
+{ render } from 'solid-js/web'
+
+App from './app.civet'
+
+render () => <App />, document.getElementById('root') as HTMLElement

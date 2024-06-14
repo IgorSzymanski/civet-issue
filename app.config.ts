@@ -1,18 +1,14 @@
-import { defineConfig } from '@solidjs/start/config'
-import type { Plugin } from 'vite'
-import civetPlugin from 'vite-plugin-civet'
-
-const extensions = ['tsx', 'ts', 'js', 'civet']
+import civetVitePlugin from '@danielx/civet/vite';
+import { defineConfig } from "@solidjs/start/config";
 
 export default defineConfig({
-  extensions,
-  vite: () => ({
+  vite: {
     plugins: [
-      civetPlugin({
-        stripTypes: false,
-        outputExtension: 'tsx',
-        outputTransformerPlugin: 'solid',
-      }) as Plugin
-  ],
-  }),
-})
+      civetVitePlugin({
+      ts: 'preserve',
+      typecheck: true,
+      outputExtension: '.tsx',
+  })
+    ]
+  }
+});

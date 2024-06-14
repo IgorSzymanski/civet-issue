@@ -1,0 +1,8 @@
+{ RouteSectionProps } from @solidjs/router
+Test from ~/components/Test.civet
+
+export default HomeLayout := (properties: RouteSectionProps) =>
+    <main>
+      <Test />
+      Hello World
+      <section>{properties.children}
